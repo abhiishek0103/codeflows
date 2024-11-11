@@ -130,6 +130,19 @@ const InputOutputPage = ({ codeRef, onInputChange, onOutputChange, socketRef, ro
                         <option value="go">go</option>
                         <option value="javascript">JavaScript</option>
                         <option value="c">C</option>
+                        <option value="bash">bash</option>
+                        <option value="cobol">cobol</option>
+                        <option value="dart">dart</option>
+                        <option value="dash">dash</option>
+                        <option value="typescript">typescript</option>
+                        <option value="csharp.net">C#</option>
+                        <option value="elixir">elixir</option>
+                        <option value="kotlin">kotlin</option>
+                        <option value="pascal">pascal</option>
+                        <option value="perl">perl</option>
+                        <option value="php">php</option>
+                        <option value="powershell">powershell</option>
+                        <option value="rust">rust</option>
                     </select>
                     <button className="runButton" onClick={handleCompileCode}>Run</button>
                 </div>
